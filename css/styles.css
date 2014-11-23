@@ -7,6 +7,7 @@
   padding: 0;
 }
 body {
+  background: #161514;
   position: relative;
 }
 img {
@@ -17,11 +18,31 @@ img {
   width: 100px;
 }
 .Content {
-  background: #161514;
   color: #fff;
   float: right;
   padding: 3em;
   width: 70%;
+}
+.Content-title {
+  text-transform: uppercase;
+  border-bottom: 1px solid #fff;
+  font-size: 1em;
+  letter-spacing: 0.4em;
+  word-spacing: 1em;
+  padding-bottom: 0.5em;
+}
+.Content-body {
+  font-size: 0.9em;
+  word-spacing: 0.2em;
+}
+.Content-body p {
+  padding: 1em;
+}
+.Content-body p:first-child {
+  padding-top: 2em;
+}
+.Content-body p:last-child {
+  padding-bottom: 3em;
 }
 .Navigation {
   left: 0;

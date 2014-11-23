@@ -7,6 +7,7 @@
 	padding 0
 	
 body
+	background #161514
 	position relative
 img
 	border 1px solid #CCC
@@ -15,11 +16,26 @@ img
 	width 100px
 		
 .Content
-	background #161514
 	color #FFF
 	float right
 	padding 3em
 	width 70%
+	&-title
+		text-transform uppercase
+		border-bottom 1px solid #FFF
+		font-size 1em
+		letter-spacing 0.4em
+		word-spacing 1em
+		padding-bottom 0.5em
+	&-body
+		font-size 0.9em
+		word-spacing 0.2em
+		p
+			padding 1em;
+			&:first-child
+				padding-top 2em
+			&:last-child
+				padding-bottom 3em
 .Navigation
 	left 0
 	position fixed
