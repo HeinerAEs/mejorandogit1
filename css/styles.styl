@@ -5,17 +5,56 @@
 	box-sizing border-box
 	margin 0
 	padding 0
+	
 body
 	position relative
-.Navegation
-	height 100vh
+img
+	border 1px solid #CCC
+	border-radius 20%
+	padding 10px
+	width 100px
+		
+.Content
+	background #161514
+	color #FFF
+	float right
+	padding 3em
+	width 70%
+.Navigation
 	left 0
 	position fixed
 	top 0
+	bottom 0
 	width 30%
+	&-item
+		display inline-block
+		text-align center
+		width 100%
 	&-item:nth-child(1)
+		color #7C7C7C
+		height 35vh
+		font-weight 600
+		padding 2em 0 0
+	&-item:nth-child(3)
+		height 49vh
+		// padding 5em 0 0
+	&-item:nth-child(odd)
 		background #EEEEEE
+	&-item:nth-child(even)
+		background #000000
+		color #FFF
+		height 16vh
+		padding 2em 0 0
 		
-section
-	float right
-	width 59%
+	&-list
+		margin 1em 0 0
+	&-listItem
+		background #E94016
+		list-style none
+		margin 0.5em auto
+		width 90%
+		a
+			color #FFF
+			display block
+			padding 1em
+			text-decoration none

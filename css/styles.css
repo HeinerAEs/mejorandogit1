@@ -9,17 +9,62 @@
 body {
   position: relative;
 }
-.Navegation {
-  height: 100vh;
+img {
+  border: 1px solid #ccc;
+  -webkit-border-radius: 20%;
+  border-radius: 20%;
+  padding: 10px;
+  width: 100px;
+}
+.Content {
+  background: #161514;
+  color: #fff;
+  float: right;
+  padding: 3em;
+  width: 70%;
+}
+.Navigation {
   left: 0;
   position: fixed;
   top: 0;
+  bottom: 0;
   width: 30%;
 }
-.Navegation-item:nth-child(1) {
+.Navigation-item {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+.Navigation-item:nth-child(1) {
+  color: #7c7c7c;
+  height: 35vh;
+  font-weight: 600;
+  padding: 2em 0 0;
+}
+.Navigation-item:nth-child(3) {
+  height: 49vh;
+}
+.Navigation-item:nth-child(odd) {
   background: #eee;
 }
-section {
-  float: right;
-  width: 59%;
+.Navigation-item:nth-child(even) {
+  background: #000;
+  color: #fff;
+  height: 16vh;
+  padding: 2em 0 0;
+}
+.Navigation-list {
+  margin: 1em 0 0;
+}
+.Navigation-listItem {
+  background: #e94016;
+  list-style: none;
+  margin: 0.5em auto;
+  width: 90%;
+}
+.Navigation-listItem a {
+  color: #fff;
+  display: block;
+  padding: 1em;
+  text-decoration: none;
 }
