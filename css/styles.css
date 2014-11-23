@@ -1,4 +1,5 @@
 @import url("normalize.css");
+@import url("//i.icomoon.io/public/temp/4520bc46c4/UntitledProject1/style.css");
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -23,6 +24,28 @@ img {
   padding: 3em;
   width: 70%;
 }
+.Content-body {
+  font-size: 0.9em;
+  word-spacing: 0.2em;
+}
+.Content-body p {
+  padding: 1em 0;
+}
+.Content-body p:first-child {
+  padding-top: 2em;
+}
+.Content-body p:last-child {
+  padding-bottom: 3em;
+}
+.Content-link {
+  padding: 2em 0;
+}
+.Content-link a {
+  color: #fff;
+}
+.Content-link:last-child {
+  padding-top: 0;
+}
 .Content-title {
   text-transform: uppercase;
   border-bottom: 1px solid #fff;
@@ -31,18 +54,26 @@ img {
   word-spacing: 1em;
   padding-bottom: 0.5em;
 }
-.Content-body {
-  font-size: 0.9em;
-  word-spacing: 0.2em;
+.github {
+  background: #9a9a9a;
 }
-.Content-body p {
-  padding: 1em;
+.github:hover {
+  background: #888;
 }
-.Content-body p:first-child {
-  padding-top: 2em;
+.facebook {
+  background: #45619d;
 }
-.Content-body p:last-child {
-  padding-bottom: 3em;
+.facebook:hover {
+  background: #364d7c;
+}
+.icon {
+  margin-right: 1em;
+}
+.linkedin {
+  background: #2387bd;
+}
+.linkedin:hover {
+  background: #1f76a5;
 }
 .Navigation {
   left: 0;
@@ -76,9 +107,9 @@ img {
 }
 .Navigation-list {
   margin: 1em 0 0;
+  text-align: left;
 }
 .Navigation-listItem {
-  background: #e94016;
   list-style: none;
   margin: 0.5em auto;
   width: 90%;
@@ -88,4 +119,10 @@ img {
   display: block;
   padding: 1em;
   text-decoration: none;
+}
+.twitter {
+  background: #55acee;
+}
+.twitter:hover {
+  background: #2596e9;
 }

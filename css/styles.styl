@@ -1,5 +1,7 @@
 @import "nib"
 @import url('normalize.css')
+@import url('//i.icomoon.io/public/temp/4520bc46c4/UntitledProject1/style.css')
+
 
 *
 	box-sizing border-box
@@ -20,6 +22,21 @@ img
 	float right
 	padding 3em
 	width 70%
+	&-body
+		font-size 0.9em
+		word-spacing 0.2em
+		p
+			padding 1em 0;
+			&:first-child
+				padding-top 2em
+			&:last-child
+				padding-bottom 3em
+	&-link
+		padding 2em 0
+		a
+			color #FFF
+		&:last-child
+			padding-top 0
 	&-title
 		text-transform uppercase
 		border-bottom 1px solid #FFF
@@ -27,15 +44,20 @@ img
 		letter-spacing 0.4em
 		word-spacing 1em
 		padding-bottom 0.5em
-	&-body
-		font-size 0.9em
-		word-spacing 0.2em
-		p
-			padding 1em;
-			&:first-child
-				padding-top 2em
-			&:last-child
-				padding-bottom 3em
+.github
+	background #9A9A9A
+	&:hover
+		background #888888
+.facebook
+	background #45619D
+	&:hover
+		background #364D7C
+.icon
+	margin-right 1em
+.linkedin
+	background #2387BD
+	&:hover
+		background #1F76A5
 .Navigation
 	left 0
 	position fixed
@@ -64,8 +86,8 @@ img
 		
 	&-list
 		margin 1em 0 0
+		text-align left
 	&-listItem
-		background #E94016
 		list-style none
 		margin 0.5em auto
 		width 90%
@@ -74,3 +96,8 @@ img
 			display block
 			padding 1em
 			text-decoration none
+.twitter
+	background #55ACEE
+	&:hover
+		background #2596E9
+		
